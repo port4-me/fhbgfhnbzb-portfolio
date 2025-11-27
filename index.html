@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dedicated web developer with a strong foundation in modern technologies. Committed to delivering high-quality, maintainable code.">
+    <title>Alex Johnson - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+      <style>
+        .profile-image-wrapper[data-position="left"] {
+          justify-self: start;
+          margin-left: 2rem;
+          margin-right: auto;
+        }
+        .profile-image-wrapper[data-position="center"] {
+          justify-self: center;
+          margin: 0 auto;
+        }
+        .profile-image-wrapper[data-position="right"] {
+          justify-self: end;
+          margin-left: auto;
+          margin-right: 2rem;
+        }
+      </style>
+      
+        <style>
+          .skill-card { padding: 1.5rem; font-size: 1rem; }
+        </style>
+        
+        <style>
+          .project-card { padding: 1.5rem; font-size: 1rem; }
+        </style>
+        </head>
+<body>
+    <div class="bg-pattern"></div>
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-brand">Alex Johnson</div>
+                <ul class="nav-menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w&#x3D;400&amp;h&#x3D;400&amp;fit&#x3D;crop" alt="Alex Johnson" class="hero-image">
+            <h1 class="hero-title">Alex Johnson</h1>
+            <p class="hero-subtitle">Professional Web Developer</p>
+            <p class="hero-bio">Dedicated web developer with a strong foundation in modern technologies. Committed to delivering high-quality, maintainable code.</p>
+            <div class="hero-social">
+                <a href="https://github.com/alexjohnson" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/alexjohnson" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/alexjohnson" target="_blank">Twitter</a>
+                <a href="https://alexjohnson.dev" target="_blank">Website</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p class="about-text">Dedicated web developer with a strong foundation in modern technologies. Committed to delivering high-quality, maintainable code.</p>
+                    <div class="about-details">
+                        <div class="detail"><strong>Email:</strong> <a href="mailto:alex.johnson@example.com">alex.johnson@example.com</a></div>
+                        <div class="detail"><strong>Phone:</strong> +1 (555) 123-4567</div>
+                        <div class="detail"><strong>Location:</strong> San Francisco, CA</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-level">Expert</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-level="Expert"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">React</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-level="Advanced"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-level="Advanced"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">TypeScript</span>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-level="Intermediate"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">CSS/Sass</span>
+                            <span class="skill-level">Advanced</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-level="Advanced"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">MongoDB</span>
+                            <span class="skill-level">Intermediate</span>
+                        </div>
+                        <div class="skill-bar"><div class="skill-fill" data-level="Intermediate"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project">
+                        <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w&#x3D;800&amp;h&#x3D;600&amp;fit&#x3D;crop" alt="E-Commerce Platform" class="project-img">
+                        <div class="project-body">
+                            <h3 class="project-title">E-Commerce Platform</h3>
+                            <p class="project-desc">A full-featured online shopping platform with real-time inventory management, payment processing, and admin dashboard.</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MongoDB</span><span class="tag">Stripe</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://example.com/ecommerce" target="_blank" class="btn-link">View Live</a>
+                                <a href="https://github.com/alexjohnson/ecommerce" target="_blank" class="btn-link">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w&#x3D;800&amp;h&#x3D;600&amp;fit&#x3D;crop" alt="Task Management App" class="project-img">
+                        <div class="project-body">
+                            <h3 class="project-title">Task Management App</h3>
+                            <p class="project-desc">Collaborative task management tool with real-time updates, team collaboration features, and advanced analytics.</p>
+                            <div class="project-tags">
+                                <span class="tag">Vue.js</span><span class="tag">Firebase</span><span class="tag">Tailwind CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://example.com/taskapp" target="_blank" class="btn-link">View Live</a>
+                                <a href="https://github.com/alexjohnson/taskapp" target="_blank" class="btn-link">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <img src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w&#x3D;800&amp;h&#x3D;600&amp;fit&#x3D;crop" alt="Weather Dashboard" class="project-img">
+                        <div class="project-body">
+                            <h3 class="project-title">Weather Dashboard</h3>
+                            <p class="project-desc">Beautiful weather application with detailed forecasts, interactive maps, and location-based alerts.</p>
+                            <div class="project-tags">
+                                <span class="tag">React</span><span class="tag">OpenWeather API</span><span class="tag">Chart.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://example.com/weather" target="_blank" class="btn-link">View Live</a>
+                                <a href="https://github.com/alexjohnson/weather" target="_blank" class="btn-link">View Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <h3 class="exp-title">Senior Software Engineer</h3>
+                            <p class="exp-company">Tech Innovations Inc.</p>
+                            <p class="exp-location">San Francisco, CA</p>
+                            <p class="exp-date">Jan 2021 - Present</p>
+                            <p class="exp-desc">Leading development of cloud-native applications and mentoring junior developers. Architected microservices infrastructure serving 1M+ users.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <h3 class="exp-title">Full Stack Developer</h3>
+                            <p class="exp-company">Digital Solutions Co.</p>
+                            <p class="exp-location">Remote</p>
+                            <p class="exp-date">Mar 2019 - Dec 2020</p>
+                            <p class="exp-desc">Developed and maintained multiple client projects using modern web technologies. Improved application performance by 40%.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-card">
+                            <h3 class="exp-title">Junior Developer</h3>
+                            <p class="exp-company">StartUp Labs</p>
+                            <p class="exp-location">San Francisco, CA</p>
+                            <p class="exp-date">Jun 2017 - Feb 2019</p>
+                            <p class="exp-desc">Built responsive web applications and collaborated with design team to implement pixel-perfect interfaces.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="edu-item">
+                    <h3 class="edu-degree">Bachelor of Science in Computer Science</h3>
+                    <p class="edu-school">University of California, Berkeley</p>
+                    <p class="edu-location">Berkeley, CA</p>
+                    <p class="edu-date">2013 - 2017</p>
+                    <p class="edu-desc">Focus on Software Engineering and Artificial Intelligence. Dean&#x27;s List all semesters.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-intro">I'm always open to discussing new projects and opportunities.</p>
+                <div class="contact-methods">
+                    <a href="mailto:alex.johnson@example.com" class="contact-btn">Email Me</a>
+                    <a href="tel:+1 (555) 123-4567" class="contact-btn">Call Me</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Alex Johnson. All rights reserved.</p>
+            <p class="footer-credit">Designed with <a href="https://port4me.com" target="_blank">Port4me</a></p>
+        </div>
+    </footer>
+    
+    <!-- Classic Theme Controls -->
+    <div class="theme-controls">
+        <button class="theme-toggle active" id="oceanTheme">Ocean Blue</button>
+        <button class="theme-toggle" id="sunsetTheme">Sunset Orange</button>
+        <button class="theme-toggle" id="forestTheme">Forest Green</button>
+        <button class="theme-toggle" id="royalTheme">Royal Purple</button>
+    </div>
+    
+    <!-- Classic Customization Panel -->
+    <div class="customization-panel" id="customizationPanel">
+        <div class="panel-header">
+            <h3>Classic Settings</h3>
+            <button class="panel-toggle" id="panelToggle">×</button>
+        </div>
+        
+        <div class="panel-content">
+            <!-- Theme Selection -->
+            <div class="control-group">
+                <label>Color Theme</label>
+                <select id="colorTheme">
+                    <option value="ocean">Ocean Blue</option>
+                    <option value="sunset">Sunset Orange</option>
+                    <option value="forest">Forest Green</option>
+                    <option value="royal">Royal Purple</option>
+                </select>
+            </div>
+            
+            <!-- Typography -->
+            <div class="control-group">
+                <label>Font Size</label>
+                <input type="range" id="fontSize" min="14" max="20" value="16">
+                <span class="range-value">16px</span>
+            </div>
+            
+            <div class="control-group">
+                <label>Line Height</label>
+                <input type="range" id="lineHeight" min="1.4" max="2.0" step="0.1" value="1.6">
+                <span class="range-value">1.6</span>
+            </div>
+            
+            <!-- Layout -->
+            <div class="control-group">
+                <label>Section Spacing</label>
+                <input type="range" id="sectionSpacing" min="2" max="6" step="0.5" value="4">
+                <span class="range-value">4rem</span>
+            </div>
+            
+            <div class="control-group">
+                <label>Border Radius</label>
+                <input type="range" id="borderRadius" min="4" max="24" step="2" value="16">
+                <span class="range-value">16px</span>
+            </div>
+            
+            <!-- Colors -->
+            <div class="control-group">
+                <label>Primary Color</label>
+                <input type="color" id="primaryColor" value="#0EA5E9">
+            </div>
+            
+            <div class="control-group">
+                <label>Accent Color</label>
+                <input type="color" id="accentColor" value="#16A34A">
+            </div>
+            
+            <!-- Reset Button -->
+            <button class="reset-btn" id="resetClassic">Reset to Default</button>
+        </div>
+    </div>
+    
+    <!-- Panel Open Button -->
+    <button class="panel-open-btn" id="panelOpenBtn">⚙️ Classic Settings</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
